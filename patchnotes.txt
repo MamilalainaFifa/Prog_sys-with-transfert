@@ -1,0 +1,15 @@
+Compression des captures d’écran
+Multithreading pour le serveur
+PLus besoin des dimensions du serveur dans config.properties
+
+log v1.2:
+    ExecutorService pour multi-threading
+    Fermeture automatique des ressources avec try-with-resources
+    ajout de qualité compression dans config
+    Refactorisation
+
+log v1.2:
+    Validation des commandes dans CommandListener
+
+News
+    Transfert de fichier
