@@ -33,6 +33,8 @@ public class Client {
              DataOutputStream controlDataOutputStream = new DataOutputStream(controlSocket.getOutputStream());
              DataInputStream controlDataInputStream = new DataInputStream(controlInputStream)) {
 
+            imageSocket.setTcpNoDelay(true);
+
             Robot robot = new Robot();
             Rectangle clientScreenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 
